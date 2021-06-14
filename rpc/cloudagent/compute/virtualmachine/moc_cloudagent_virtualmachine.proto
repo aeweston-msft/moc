@@ -127,8 +127,8 @@ message VirtualMachineOperationResponse {
 message VirtualMachineRunCommandRequest {
 	VirtualMachine VirtualMachine = 1;
 	VirtualMachineRunCommandScriptSource Source = 2;
-    repeated VirtualMachineRunCommandInputParameter RunCommandInputParameters = 3;
-    string RunAsUser = 4;
+	repeated VirtualMachineRunCommandInputParameter RunCommandInputParameters = 3;
+	string RunAsUser = 4;
 	string RunAsPassword = 5;
 }
 
